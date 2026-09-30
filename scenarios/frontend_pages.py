@@ -9,6 +9,7 @@ from config import BROWSER_HEADERS
 
 
 class FrontendPageUser(BaseDevPulseUser):
+    abstract = True
     """
     Simulates real browser visitors browsing through the DevPulse web application.
     Covers public landing pages, auth screens, workspaces, and admin interfaces.

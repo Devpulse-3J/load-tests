@@ -11,6 +11,7 @@ from config import TEST_USER_EMAIL, TEST_USER_PASSWORD
 
 
 class DeveloperUser(BaseDevPulseUser):
+    abstract = True
     """
     Developer persona exercising core project metrics and pull request analysis.
     """

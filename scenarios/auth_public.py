@@ -13,6 +13,7 @@ from config import (
 
 
 class PublicApiUser(BaseDevPulseUser):
+    abstract = True
     """
     Simulates anonymous traffic, authentication spikes, and public webhook triggers.
     """

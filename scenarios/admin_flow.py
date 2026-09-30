@@ -16,6 +16,7 @@ from config import (
 
 
 class AdminUser(BaseDevPulseUser):
+    abstract = True
     """
     Admin & Manager persona exercising administrative endpoints, project setup,
     team invitations, alert policies, and analytics rebuild triggers.

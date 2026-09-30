@@ -11,6 +11,7 @@ from config import TEST_USER_EMAIL, TEST_USER_PASSWORD
 
 
 class IntegrationsUser(BaseDevPulseUser):
+    abstract = True
     """
     Persona exercising GitHub sync, Jira issue integration, and Slack alerting.
     """
